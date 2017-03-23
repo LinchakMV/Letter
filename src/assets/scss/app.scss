@@ -1,0 +1,128 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+.letter{
+    border:4px solid $primary-color;
+    border-radius:4px;
+   
+}
+.Banner-bg{
+    background-image: url('../assets/img/Banner.png'); 
+    height: 205px;
+    a{
+        font-size:12px;
+        font-family: Helios Regular, sans-serif;
+        color: $primary-color;
+        
+    }
+    a:hover{
+        color:#0e1151;
+    }
+    .layout-h{margin-top:-100px;}
+}
+.text-eat a{
+    padding-left: 18px;
+    white-space: nowrap;
+    font-weight: bold;
+    font-style: italic;
+}
+.video-link img{
+    margin:-15px 0 0 0px;
+}
+.photo-link img{
+    margin:-15px 0 50px 0px;
+}
+.video-link img:hover, .photo-link img:hover{
+    background-color: #ccc;
+}
+a{
+    text-decoration: underline;
+}
+.photo-video{
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.center-text-column{
+     p{
+        padding: 0px 50px 0 50px;
+    }
+    h5{
+        font-weight: bold;
+    }
+    a:hover{
+        color: #0e1151;
+    }
+}
+.center-text-column img{
+    margin-top:-40px;
+}
+.podarok{
+    font-size:15px;
+}
+.competition{
+    font-size:14px;
+}
+.footer-d{
+    background-color: $primary-color;
+    margin-top:-20px;
+}
+.footer-d p{
+    color: #fff;
+}
+.footer-container{
+    background-color: $primary-color !important;
+    p{
+        color: #fff;
+        padding-top:20px;
+        font-size:10px;
+    }
+    .site a{
+        color: #fff;
+        text-decoration: none;
+        font-size:18px;
+        
+    }
+    a:hover{
+            color: $secondary-color;
+        }
+    
+}
+.img-ds{
+     td{    
+        padding: 0 5px;
+     }
+
+}
+@media only screen and (max-width : 597px) {
+    .video-link img{margin-top:0px;}
+    .photo-link img{margin-top:0px !important;}
+    .text-eat p{margin-top:5px !important;}
+    .text-eat p a{font-size: 0.6em;}
+    
+}
+@media only screen and (max-width : 480px) {
+    .video-link img{
+        margin-top:15px;        
+    }
+    .photo-link img{
+        margin:15px 0 0 0 !important;
+    }
+    .text-eat p{margin:25px 0 0 -10px !important;}
+    .text-eat p a{font-size: 0.45em;}.Banner-bg{height:auto;margin-bottom:40px !important;}
+}
+@media only screen and (max-width : 400px) {
+    .video-link img{margin-top:35px;}
+    .photo-link img{margin-top:35px !important;}
+    .text-eat p{margin-top:45px !important;}
+    .text-eat p a{font-size: 0.3em;}
+    
+}
+@media only screen and (max-width : 320px) {
+    .video-link img{margin-top:45px;}
+    .photo-link img{margin-top:45px !important;}
+    .text-eat p{margin-top:55px !important;}
+    .text-eat p a{font-size: 0.3em;}
+    
+}
