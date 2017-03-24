@@ -1,4 +1,4 @@
-## Link to look (http://letter-foundations.surge.sh)
+### Link to look (http://letter-foundations.surge.sh)
 # Foundation for Emails Template
 
 [![devDependency Status](https://david-dm.org/zurb/foundation-emails-template/dev-status.svg)](https://david-dm.org/zurb/foundation-emails-template#info=devDependencies)
