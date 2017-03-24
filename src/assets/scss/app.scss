@@ -9,9 +9,8 @@
    
 }
 .Banner-bg{
-    background-image: url('../assets/img/Banner.png'); 
-    height: 205px;
-    a{
+    /*height: 205px;*/
+    /*a{
         font-size:12px;
         font-family: Helios Regular, sans-serif;
         color: $primary-color;
@@ -20,7 +19,17 @@
     a:hover{
         color:#0e1151;
     }
-    .layout-h{margin-top:-100px;}
+    .layout-h{margin-top:-100px;}*/
+    table{height: 205px;width:585px;
+        background-image: url("https://github.com/LinchakMV/Letter/blob/master/src/assets/img/Banner.png?raw=true");
+    }
+    td>p>a{
+        padding-left:40px;
+        font-size:12px;
+    }
+    .video-link a{
+        margin:0px;
+    }
 }
 .text-eat a{
     padding-left: 18px;
@@ -28,12 +37,12 @@
     font-weight: bold;
     font-style: italic;
 }
-.video-link img{
+/*.video-link img{
     margin:-15px 0 0 0px;
 }
 .photo-link img{
     margin:-15px 0 50px 0px;
-}
+}*/
 .video-link img:hover, .photo-link img:hover{
     background-color: #ccc;
 }
@@ -58,6 +67,10 @@ a{
 .center-text-column img{
     margin-top:-40px;
 }
+.center-text-column{
+
+    padding-bottom:0 !important;
+}
 .podarok{
     font-size:15px;
 }
@@ -66,7 +79,7 @@ a{
 }
 .footer-d{
     background-color: $primary-color;
-    margin-top:-20px;
+    /*margin-top:-20px;*/
 }
 .footer-d p{
     color: #fff;
@@ -94,35 +107,4 @@ a{
         padding: 0 5px;
      }
 
-}
-@media only screen and (max-width : 597px) {
-    .video-link img{margin-top:0px;}
-    .photo-link img{margin-top:0px !important;}
-    .text-eat p{margin-top:5px !important;}
-    .text-eat p a{font-size: 0.6em;}
-    
-}
-@media only screen and (max-width : 480px) {
-    .video-link img{
-        margin-top:15px;        
-    }
-    .photo-link img{
-        margin:15px 0 0 0 !important;
-    }
-    .text-eat p{margin:25px 0 0 -10px !important;}
-    .text-eat p a{font-size: 0.45em;}.Banner-bg{height:auto;margin-bottom:40px !important;}
-}
-@media only screen and (max-width : 400px) {
-    .video-link img{margin-top:35px;}
-    .photo-link img{margin-top:35px !important;}
-    .text-eat p{margin-top:45px !important;}
-    .text-eat p a{font-size: 0.3em;}
-    
-}
-@media only screen and (max-width : 320px) {
-    .video-link img{margin-top:45px;}
-    .photo-link img{margin-top:45px !important;}
-    .text-eat p{margin-top:55px !important;}
-    .text-eat p a{font-size: 0.3em;}
-    
 }
